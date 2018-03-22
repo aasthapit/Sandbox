@@ -1,0 +1,22 @@
+#just to initialize local git repo
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aasthapit/Sandbox.git
+git push -u origin master
+
+#on regular basis
+before add
+git add *.*
+git commit -m "first commit"
+git push -u origin master
+
+
+When out of sync w/ remote master:
+
+#git remote add origin https://github.com/aasthapit/Sandbox.git
+git push -u origin master
+before add
+git add *.*
+git commit -m "first commit"
+git push -u origin master

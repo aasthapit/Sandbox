@@ -1,5 +1,7 @@
 #just to initialize local git repo
 git init
+git --global user.email "aa.sthapit@live.com"
+git --global user.name "aasthapit"
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/aasthapit/Sandbox.git
